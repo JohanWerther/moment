@@ -20,7 +20,7 @@ function findDifference (newDate, oldDate) {
         years--
     }
     
-    if (newDate.getMonth === oldDate.getMonth() && newDate.getDate() < oldDate.getDate()) {
+    if (newDate.getMonth() === oldDate.getMonth() && newDate.getDate() < oldDate.getDate()) {
         years --    
     }
     
